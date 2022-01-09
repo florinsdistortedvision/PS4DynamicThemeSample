@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- SIE CONFIDENTIAL
+     Copyright (C) 2016 Sony Interactive Entertainment Inc.
+     All Rights Reserved. -->
+
+<!-- The root element of system software theme XML. -->
+<theme>
+
+    <!-- Specifies the theme format version string that corresponds to the current SDK version.
+         Please see the "System Software Theme Creation Guide" document for details.
+         The format version is compulsory setting element.-->
+    <format-version>4.0</format-version>
+
+    <!-- Specifies the color (theme color) of the system software screen with an integer value (0-7) :
+         0:blue(default), 1:pink, 2:red, 3:navy, 4:darkgray, 5:gold, 6:lightsteelblue, 7:purple.
+         The theme color is compulsory setting element. -->
+    <themecolor>0</themecolor>
+
+    <!-- Specifies the character string (64byte [a-z][A-Z][0-9]"-""_") for identifying the theme.
+         The label will not be displayed on system software screens,
+         but it will be displayed in the console log as debug information.
+         When omitted, the system default label will be applied. -->
+    <label>SIE-SAMPLETHEME-SIMPLE</label>
+
+    <!-- Specifies the text color with a hexadecimal,
+         8-digit value starting with "#" then continuing in the order of ARGB (#AARRGGBB).
+         When omitted, the system default color will be applied. -->
+    <fontcolor>#FF4F7ECE</fontcolor>
+
+    <!-- Specifies the text drop shadow color with a hexadecimal,
+         8-digit value starting with "#" then continuing in the order of ARGB (#AARRGGBB).
+         When omitted, the text drop shadow color will not be displayed
+         when users set a shadow style as "Standard" on the system software settings. -->
+    <fontshadowcolor>#00000000</fontshadowcolor>
+
+    <!-- Specifies the focus color with a hexadecimal,
+         8-digit value starting with "#" then continuing in the order of ARGB (#AARRGGBB).
+         When omitted, the system default color that corresponds to the theme color will be applied. -->
+    <focuscolor>#FF00BAFF</focuscolor>
+
+    <!-- Specifies the dimmer color displayed on the function area at the top of the home screen with a hexadecimal,
+         8-digit value starting with "#" then continuing in the order of ARGB (#AARRGGBB).
+         When omitted, the dimmer color will not be displayed. -->
+    <homescreen-dimmer>#26666666</homescreen-dimmer>
+
+    <!-- Specifies the dimmer color displayed on the entire function screen with a hexadecimal,
+         8-digit value starting with "#" then continuing in the order of ARGB (#AARRGGBB).
+         When omitted, the dimmer color will not be displayed. -->
+    <functionscreen-dimmer>#1A203252</functionscreen-dimmer>
+
+    <!-- Specifies the dimmer color displayed on the background of the application title name with a hexadecimal,
+         8-digit value starting with "#" then continuing in the order of ARGB (#AARRGGBB).
+         When omitted, the dimmer color will not be displayed. -->
+    <titlename-dimmer>#99FFFFFF</titlename-dimmer>
+
+    <!-- Specifies the presence/absence of BGM playback in the home screen with a "True" or "False" string.
+         When omitted, BGM playback will be enabled. When BGM playback is enabled without the bgm file existing, 
+         the system default BGM will be used. -->
+    <homebgm-enable>True</homebgm-enable>
+
+</theme>
