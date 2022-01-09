@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raf angle_unit="degree">
+
+	<!-- System -->
+
+	<system camera_switch_mode="off" layer_switch_distance="0"/>
+
+	<!-- Camera / Lights -->
+
+	<camera id="camera1" type="orthographic" ymag="55.5" position="15.25 9.7 0" />
+
+	<!-- Models -->
+	<model id="BG" file="BG.mdx"/>
+	
+	<!-- Materials -->
+	
+	<material id="BG0" effect="pure_texture depth_0" >
+		<texture file="00.dds"/>
+	</material>
+	<material id="BG1" effect="pure_texture depth_0" >
+		<texture file="01.dds"/>
+	</material>
+	<material id="BG2" effect="pure_texture depth_0" >
+		<texture file="02.dds"/>
+	</material>
+	<material id="BG3" effect="pure_texture depth_0" >
+		<texture file="03.dds"/>
+	</material>
+	<material id="BG4" effect="pure_texture depth_0" >
+		<texture file="04.dds"/>
+	</material>
+	<material id="BG5" effect="pure_texture depth_0" >
+		<texture file="05.dds"/>
+	</material>
+	<material id="BG6" effect="pure_texture depth_0" >
+		<texture file="06.dds"/>
+	</material>
+	<material id="BG7" effect="pure_texture depth_0" >
+		<texture file="07.dds"/>
+	</material>
+	<material id="BG8" effect="pure_texture depth_0" >
+		<texture file="08.dds"/>
+	</material>
+	<material id="BG9" effect="pure_texture depth_0" >
+		<texture file="09.dds"/>
+	</material>
+	<material id="BG10" effect="pure_texture depth_0" >
+		<texture file="10.dds"/>
+	</material>
+	<material id="BG11" effect="pure_texture depth_0" >
+		<texture file="11.dds"/>
+	</material>
+	<material id="BG12" effect="pure_texture depth_0" >
+		<texture file="12.dds"/>
+	</material>
+	<material id="BG13" effect="pure_texture depth_0" >
+		<texture file="13.dds"/>
+	</material>
+	<material id="BG14" effect="pure_texture depth_0" >
+		<texture file="14.dds"/>
+	</material>
+	<material id="BG15" effect="pure_texture depth_0" >
+		<texture file="15.dds"/>
+	</material>
+	<material id="BG16" effect="pure_texture depth_0" >
+		<texture file="16.dds"/>
+	</material>
+	<material id="BG17" effect="pure_texture depth_0" >
+		<texture file="17.dds"/>
+	</material>
+	<material id="BG18" effect="pure_texture depth_0" >
+		<texture file="18.dds"/>
+	</material>
+	<material id="BG19" effect="pure_texture depth_0" >
+		<texture file="19.dds"/>
+	</material>
+	<material id="BG20" effect="pure_texture depth_0" >
+		<texture file="20.dds"/>
+	</material>
+	<material id="BG21" effect="pure_texture depth_0" >
+		<texture file="21.dds"/>
+	</material>
+	<material id="BG22" effect="pure_texture depth_0" >
+		<texture file="22.dds"/>
+	</material>
+	<material id="BG23" effect="pure_texture depth_0" >
+		<texture file="23.dds"/>
+	</material>
+	<material id="BG24" effect="pure_texture depth_0" >
+		<texture file="24.dds"/>
+	</material>
+	<material id="BG25" effect="pure_texture depth_0" >
+		<texture file="25.dds"/>
+	</material>
+	<material id="BG26" effect="pure_texture depth_0" >
+		<texture file="26.dds"/>
+	</material>
+	<material id="BG27" effect="pure_texture depth_0" >
+		<texture file="27.dds"/>
+	</material>
+	<material id="BG28" effect="pure_texture depth_0" >
+		<texture file="28.dds"/>
+	</material>
+	<material id="BG29" effect="pure_texture depth_0" >
+		<texture file="29.dds"/>
+	</material>	
+	<material id="BG30" effect="pure_texture depth_0" >
+		<texture file="30.dds"/>
+	</material>
+	<material id="BG31" effect="pure_texture depth_0" >
+		<texture file="31.dds"/>
+	</material>
+	<material id="BG32" effect="pure_texture depth_0" >
+		<texture file="32.dds"/>
+	</material>
+	<material id="BG33" effect="pure_texture depth_0" >
+		<texture file="33.dds"/>
+	</material>
+	<!-- Actors -->
+	
+	<actor id="bg00" model="BG" material="BG0" color="1 1 1 0" />
+	<actor id="bg01" model="BG" material="BG1" color="1 1 1 0" />
+	<actor id="bg02" model="BG" material="BG2" color="1 1 1 0" />
+	<actor id="bg03" model="BG" material="BG3" color="1 1 1 0" />
+	<actor id="bg04" model="BG" material="BG4" color="1 1 1 0" />
+	<actor id="bg05" model="BG" material="BG5" color="1 1 1 0" />
+	<actor id="bg06" model="BG" material="BG6" color="1 1 1 0" />
+	<actor id="bg07" model="BG" material="BG7" color="1 1 1 0" />
+	<actor id="bg08" model="BG" material="BG8" color="1 1 1 0" />
+	<actor id="bg09" model="BG" material="BG9" color="1 1 1 0" />
+	<actor id="bg10" model="BG" material="BG10" color="1 1 1 0" />
+	<actor id="bg11" model="BG" material="BG11" color="1 1 1 0" />
+	<actor id="bg12" model="BG" material="BG12" color="1 1 1 0" />
+	<actor id="bg13" model="BG" material="BG13" color="1 1 1 0" />
+	<actor id="bg14" model="BG" material="BG14" color="1 1 1 0" />
+	<actor id="bg15" model="BG" material="BG15" color="1 1 1 0" />
+	<actor id="bg16" model="BG" material="BG16" color="1 1 1 0" />
+	<actor id="bg17" model="BG" material="BG17" color="1 1 1 0" />
+	<actor id="bg18" model="BG" material="BG18" color="1 1 1 0" />
+	<actor id="bg19" model="BG" material="BG19" color="1 1 1 0" />
+	<actor id="bg20" model="BG" material="BG20" color="1 1 1 0" />
+	<actor id="bg21" model="BG" material="BG21" color="1 1 1 0" />
+	<actor id="bg22" model="BG" material="BG22" color="1 1 1 0" />
+	<actor id="bg23" model="BG" material="BG23" color="1 1 1 0" />
+	<actor id="bg24" model="BG" material="BG24" color="1 1 1 0" />
+	<actor id="bg25" model="BG" material="BG25" color="1 1 1 0" />
+	<actor id="bg26" model="BG" material="BG26" color="1 1 1 0" />
+	<actor id="bg27" model="BG" material="BG27" color="1 1 1 0" />
+	<actor id="bg28" model="BG" material="BG28" color="1 1 1 0" />
+	<actor id="bg29" model="BG" material="BG29" color="1 1 1 0" />
+	<actor id="bg30" model="BG" material="BG30" color="1 1 1 0" />
+	<actor id="bg31" model="BG" material="BG31" color="1 1 1 0" />
+	<actor id="bg32" model="BG" material="BG32" color="1 1 1 0" />
+	<actor id="bg33" model="BG" material="BG33" color="1 1 1 0" />
+
+	<sequence>
+		<case wait="0.041667">
+			<actor id="bg33" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg00" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg00" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg01" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg01" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg02" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg02" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg03" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg03" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg04" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg04" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg05" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg05" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg06" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg06" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg07" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg07" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg08" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg08" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg09" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg09" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg10" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg10" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg11" color="1 1 1 1" trans_time="0.00" />
+		</case>		
+		<case wait="0.041667">
+			<actor id="bg11" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg12" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg12" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg13" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg13" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg14" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg14" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg15" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg15" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg16" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg16" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg17" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg17" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg18" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg18" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg19" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg19" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg20" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg20" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg21" color="1 1 1 1" trans_time="0.00" />
+		</case>		
+		<case wait="0.041667">
+			<actor id="bg21" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg22" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg22" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg23" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg23" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg24" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg24" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg25" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg25" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg26" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg26" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg27" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg27" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg28" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg28" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg29" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg29" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg30" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg30" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg31" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg31" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg32" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		<case wait="0.041667">
+			<actor id="bg32" color="1 1 1 0" trans_time="0.00" trans_step="0" />
+			<actor id="bg33" color="1 1 1 1" trans_time="0.00" />
+		</case>
+		</sequence>
+		
+</raf>
