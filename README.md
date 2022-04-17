@@ -37,11 +37,11 @@ Here are all the other things you can change:
 - /theme.xml. Here you can change the colors of the font and what color the theme will use for menus like Settings, etc. 
 
 Example of things you can change:
-"<themecolor>0</themecolor>" holds the color for the menus. A description is present inside the .xml file telling which color is which number (ex: 1=pink, 2=red, etc)
-"<fontcolor>#FF4F7ECE</fontcolor>" holds the text color. Value is hexadecimal.
-"<fontshadowcolor>#00000000</fontshadowcolor>" holds the shadow font color. Value is hexadecimal.
-"<focuscolor>#FF00BAFF</focuscolor>" holds the focus color of the font. Value is hexadecimal.
-"<homebgm-enable>True</homebgm-enable>" specifies whether the theme should use your custom background music or the default one. True=custom, False=default.
+- <themecolor>0</themecolor> holds the color for the menus. A description is present inside the .xml file telling which color is which number (ex: 1=pink, 2=red, etc)
+- <fontcolor>#FF4F7ECE</fontcolor> holds the text color. Value is hexadecimal.
+- <fontshadowcolor>#00000000</fontshadowcolor> holds the shadow font color. Value is hexadecimal.
+- <focuscolor>#FF00BAFF</focuscolor> holds the focus color of the font. Value is hexadecimal.
+- <homebgm-enable>True</homebgm-enable> specifies whether the theme should use your custom background music or the default one. True=custom, False=default.
 
 # 4. Editing Param.sfo
 
